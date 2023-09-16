@@ -72,3 +72,69 @@
 //     println!("doubled: {}", double(7));
 // }
 
+// fn main() {
+//     let v = vec![10, 20, 30];
+
+//     for x in v {
+//         println!("x: {x}");
+//     }
+    
+//     for i in (0..10).step_by(3) {
+//         println!("i: {i}");
+//     }
+// }
+
+// fn main() {
+//     let mut x = 10;
+//     while x != 1 {
+//         x = if x % 2 == 0 {
+//             x / 2
+//         } else {
+//             3 * x + 1
+//         };
+//     }
+//     println!("Final x: {x}");
+// }
+
+// fn main() {
+//     let v = vec![4, 20, 30];
+//     let mut iter = v.into_iter();
+//     'outer: while let Some(x) = iter.next() {
+//         //println!("x: {x}");
+//         let mut i = 0;
+//         while i < x {
+//           i += 1;
+//           let mut q = 0;
+//           while q < i {
+//             println!("{x}, {i}, {q}");
+//             q += 1;
+//             if q == 3 {
+//                 break 'outer;
+//             }
+//           }
+//         }
+//     }
+// }
+
+
+// fn main() {
+//     let mut x = 10;
+//     loop {
+//         x = if x % 2 == 0 {
+//           x / 2
+//         } else {
+//             3 * x + 1
+//         };
+//         if x == 1 {
+//             break;
+//         }
+//     }
+//     println!("Final x: {x}");
+// }
+
+fn main() {
+    let x: i32 = 10;
+    println!("x: {x}");
+    // x = 20;
+    // println!("x: {x}");
+}
